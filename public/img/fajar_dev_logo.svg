@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Fajar Dev</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Fajar Dev dengan ikon matahari terbit dan teks modern</desc>
+  <defs>
+    
+  </defs>
+
+  <!-- Sun rays -->
+  <g transform="translate(340, 195)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- Ray lines -->
+    <line x1="0" y1="-115" x2="0" y2="-90" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="55" y1="-99" x2="43" y2="-78" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="99" y1="-55" x2="78" y2="-43" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="-55" y1="-99" x2="-43" y2="-78" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="-99" y1="-55" x2="-78" y2="-43" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="-115" y1="0" x2="-90" y2="0" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="115" y1="0" x2="90" y2="0" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Horizon line -->
+    <line x1="-130" y1="30" x2="130" y2="30" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(245, 158, 11);color:rgb(0, 0, 0);stroke-width:3.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Sun semicircle (half above horizon) -->
+    <path d="M -72 30 A 72 72 0 0 1 72 30 Z" fill="#FBBF24" style="fill:rgb(251, 191, 36);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Inner sun glow -->
+    <path d="M -52 30 A 52 52 0 0 1 52 30 Z" fill="#F59E0B" style="fill:rgb(245, 158, 11);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Code brackets < > -->
+  <text x="156" y="230" font-family="'Courier New', monospace" font-size="72" font-weight="700" fill="#3B82F6" opacity="0.18" style="fill:rgb(59, 130, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Courier New&quot;, monospace;font-size:72px;font-weight:700;text-anchor:start;dominant-baseline:auto">&lt;</text>
+  <text x="472" y="230" font-family="'Courier New', monospace" font-size="72" font-weight="700" fill="#3B82F6" opacity="0.18" style="fill:rgb(59, 130, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Courier New&quot;, monospace;font-size:72px;font-weight:700;text-anchor:start;dominant-baseline:auto">&gt;</text>
+
+  <!-- Main text: FAJAR -->
+  <text x="340" y="295" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="10" fill="#1E3A5F" style="fill:rgb(30, 58, 95);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Segoe UI&quot;, Arial, sans-serif;font-size:52px;font-weight:700;text-anchor:middle;dominant-baseline:auto">FAJAR</text>
+
+  <!-- Sub text: DEV -->
+  <text x="340" y="338" text-anchor="middle" font-family="'Courier New', monospace" font-size="26" font-weight="500" letter-spacing="16" fill="#3B82F6" style="fill:rgb(59, 130, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:26px;font-weight:500;text-anchor:middle;dominant-baseline:auto">DEV</text>
+
+  <!-- Accent underline -->
+  <rect x="260" y="348" width="160" height="3" rx="2" fill="#F59E0B" style="fill:rgb(245, 158, 11);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Tagline -->
+  <text x="340" y="376" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" letter-spacing="2" style="fill:rgb(100, 116, 139);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">building from the dawn</text>
+</svg>

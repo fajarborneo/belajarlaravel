@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <ul>
+        <li>
+            <a href="/home">home</a>
+        </li>
+        <li>
+            <a href="/about">about</a>
+        </li>
+        <li>
+            <a href="/contact">contact</a>
+        </li>
+    </ul>
+    
+</body>
+</html>

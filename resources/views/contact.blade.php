@@ -11,7 +11,7 @@
     <img src="img/fajar_dev_logo.svg" alt="fajardev" width="500">
     <ul>
         <li>
-            <a href="/home">home</a>
+            <a href="/">home</a>
         </li>
         <li>
             <a href="/about">about</a>

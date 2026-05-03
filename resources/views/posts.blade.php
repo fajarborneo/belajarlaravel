@@ -10,7 +10,8 @@
 
         </a>
         <div class="text-base text-gray-500">
-            <a href="/authors/{{ $post->author->id }}" class="hover:underline">{{ $post->author->name }}</a> | 20 April 2026
+           By <a href="/authors/{{ $post->author->username }}" class=" text-gray-900 hover:underline">{{ $post->author->name }}</a> in  
+           <a href="/categories/{{ $post->category->slug }}" class=" text-gray-900 hover:underline">{{ $post->category->name }}</a>| 20 April 2026
         </div>
 
         <p class="my-4 font-light">{{ Str::limit($post['body'], 100) }}</p>

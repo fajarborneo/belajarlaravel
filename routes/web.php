@@ -5,7 +5,6 @@ use App\Models\Post;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
-use function Pest\Laravel\post;
 
 
 

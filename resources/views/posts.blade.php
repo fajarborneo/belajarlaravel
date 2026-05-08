@@ -1,25 +1,4 @@
 <x-layout :title="$title">
-    {{-- @foreach ($posts as $post)
-        
-    
-
-     <article class="py-8 max-w-screen-md border-b border-gray-300">
-         <a href="/post/{{ $post['slug']}}" class="hover:underline">
-            
-            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">{{ $post['title'] }}</h2>
-
-        </a>
-        <div class="text-base text-gray-500">
-           By <a href="/authors/{{ $post->author->username }}" class=" text-gray-900 hover:underline">{{ $post->author->name }}</a> in  
-           <a href="/categories/{{ $post->category->slug }}" class=" text-gray-900 hover:underline">{{ $post->category->name }}</a>| 20 April 2026
-        </div>
-
-        <p class="my-4 font-light">{{ Str::limit($post['body'], 100) }}</p>
-        <a href="/post/{{ $post['slug']}}" class="font-medium text-blue-500 hover:underline">Read more &raquo;</a>
-     </article>
-
-    @endforeach --}}
-
 
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2">
@@ -40,7 +19,9 @@
                   <div class="flex items-center space-x-4">
                       <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="{{ $post->author->name }}" />
                       <span class="font-medium text-xs dark:text-white">
+                        <a href="/authors/{{ $post->author->username }}" class=" text-gray-900 hover:underline">
                           {{ $post->author->name }}
+                        </a>
                       </span>
                   </div>
                   <a href="/post/{{ $post['slug']}}" class="inline-flex text-xs items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">

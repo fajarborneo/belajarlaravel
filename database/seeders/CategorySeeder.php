@@ -13,19 +13,8 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        Category::create([
-            'name' => 'Web Design',
-            'slug' => 'web-design'
-        ]);
-
-        Category::create([
-            'name' => 'Web Programming',
-            'slug' => 'web-programming'
-        ]);
-
-        Category::create([
-            'name' => 'Artificial Intelegent',
-            'slug' => 'Ai'
-        ]);
+        Category::create(['name' => 'Web Design', 'slug' => 'web-design', 'color' => 'bg-red-100']);
+        Category::create(['name' => 'Web Programming', 'slug' => 'web-programming', 'color' => 'bg-green-100']);
+        Category::create(['name' => 'Artificial Intelegent', 'slug' => 'ai', 'color' => 'bg-blue-100']);
     }
 }

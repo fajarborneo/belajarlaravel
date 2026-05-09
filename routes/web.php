@@ -13,10 +13,16 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', function () {
-    // $posts = Post::with(['author','category'])->latest()->get();
+    $posts = Post::latest();
 
-    $posts = Post::latest()->get();
-    return view('posts', ['title' => 'Blog', 'posts' => $posts]);
+    if (request('search')) {
+        $posts = $posts->where('title', 'like', '%' . request('search') . '%')
+            ->orWhereHas('author', function($query) {
+                $query->where('username', 'like', '%' . request('search') . '%');
+            });
+    }
+
+    return view('posts', ['title' => 'Blog', 'posts' => $posts->get()]);
 });
 
 Route::get('/post/{post:slug}', function (Post $post) {

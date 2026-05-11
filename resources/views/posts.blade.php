@@ -4,13 +4,21 @@
 
 
     
-    <form class=" mb-8 max-w-md mx-auto">   
+    <form class=" mb-8 max-w-md mx-auto">
+      @if (request('category'))
+        <input type="hidden" name="category" value="{{ request('category') }}">
+      @endif
+
+            @if (request('author'))
+        <input type="hidden" name="author" value="{{ request('author') }}">
+      @endif
+      
         <label for="search" class="block mb-2.5 text-sm font-medium text-heading sr-only ">Search</label>
         <div class="relative">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg class="w-4 h-4 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
             </div>
-            <input type="search" id="search" class="block w-full p-3 ps-9 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="Search post title..." autofocus  autocomplete="off" name="search" />
+            <input type="search" id="search" class="block w-full p-3 ps-9 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="Search..." autofocus  autocomplete="off" name="search" />
             <button type="submit" class="absolute end-1.5 bottom-1.5 text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 focus:outline-none">Search</button>
         </div>
     </form>
@@ -21,7 +29,7 @@
         @foreach ($posts as $post)
           <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <div class="flex justify-between items-center mb-5 text-gray-500">
-                <a href="/categories/{{ $post->category->slug }}">
+                <a href="/posts?category={{ $post->category->slug }}">
                   <span 
                   class="{{ $post->category->color }} text-gray-6git00 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                     {{ $post->category->name }}
@@ -32,7 +40,7 @@
               <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-white"><a href="/post/{{ $post['slug']}}">{{ $post['title'] }}</a></h2>
               <p class="mb-5 font-light text-gray-500 dark:text-gray-400">{{ Str::limit($post['body'], 100) }}</p>
               <div class="flex justify-between items-center">
-                <a href="/authors/{{ $post->author->username }}" class=" text-gray-900 hover:underline">
+                <a href="/posts?author={{ $post->author->username }}" class=" text-gray-900 hover:underline">
                   <div class="flex items-center space-x-4">
                       <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="{{ $post->author->name }}" />
                       <span class="font-medium text-xs dark:text-white">
